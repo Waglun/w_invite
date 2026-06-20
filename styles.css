@@ -199,7 +199,8 @@ body {
 }
 
 .btn {
-  display: inline-flex;
+  display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
   min-height: 30px;
@@ -285,6 +286,17 @@ body {
   margin: 0;
   font-size: 15px;
   opacity: 0.95;
+}
+
+.block {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s ease;
+}
+
+.block.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (min-width: 420px) {
