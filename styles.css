@@ -20,7 +20,6 @@ body {
   margin: 0;
   background: #f5f0eb;
   color: var(--text);
-  /*font-family: "Montserrat", Arial, sans-serif;*/
   font-family: "Poiret One", sans-serif;
   font-size: 15px;
   line-height: 1.30;
@@ -83,28 +82,6 @@ body {
   display: block;
 }
 
-/*.hero__overlay {*/
-/*  position: absolute;*/
-/*  inset: 0;*/
-/*  padding: 24px 20px;*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  justify-content: space-between;*/
-/*  background: linear-gradient(*/
-/*    180deg,*/
-/*    rgba(255, 254, 246, 0.15) 0%,*/
-/*    rgba(255, 254, 246, 0) 45%,*/
-/*    rgba(255, 254, 246, 0.35) 100%*/
-/*  );*/
-/*}*/
-
-/*.hero__overlay h1 {*/
-/*  margin: 0;*/
-/*  font-size: 34px;*/
-/*  color: var(--red);*/
-/*}*/
-
-
 .hero__overlay {
   position: absolute;
   inset: 0;
@@ -150,14 +127,6 @@ body {
 
   font-size: 26px;
 }
-
-/*.welcome {*/
-/*  position: relative;*/
-/*  padding: 27px 0 28px;*/
-/*  background-color: var(--red);*/
-/*  background-image: radial-gradient(circle, var(--cream) 2px, transparent 2px);*/
-/*  background-size: 24px 18px;*/
-/*}*/
 
 .welcome {
   position: relative;
@@ -288,17 +257,6 @@ body {
   color: var(--cream);
   text-align: center;
 }
-
-/*.footer__scallop {*/
-/*  position: absolute;*/
-/*  top: -29px;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  height: 30px;*/
-/*  background:*/
-/*    radial-gradient(circle at 12px 30px, var(--red-dark) 29px, transparent 30px) 0 0 / 59px 30px repeat-x;*/
-/*}*/
-
 
 .footer__scallop {
   position: absolute;
