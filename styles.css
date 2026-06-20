@@ -20,17 +20,45 @@ body {
   margin: 0;
   background: #f5f0eb;
   color: var(--text);
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 11px;
-  line-height: 1.45;
+  /*font-family: "Montserrat", Arial, sans-serif;*/
+  font-family: "Poiret One", sans-serif;
+  font-size: 15px;
+  line-height: 1.30;
   -webkit-font-smoothing: antialiased;
 }
 
 .script {
   font-family: "Great Vibes", cursive;
+  text-align: center;
   font-weight: 400;
   line-height: 1.1;
 }
+
+.hero__title {
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.hero__name {
+  display: block;
+}
+
+.hero__name--first {
+  margin-right: 40px;
+}
+
+.hero__name--and {
+  font-size: 0.6em;
+  margin-top: -10px;
+}
+
+.hero__name--second {
+  margin-left: 40px;
+  margin-top: -5px;
+}
+
 
 .invite {
   width: 100%;
@@ -106,15 +134,16 @@ body {
 
 
 .hero__date {
-  margin-top: auto;
-
-  font-size: 16px;
+  font-family: "Instrument Serif", serif;
+  margin: 8px 0 0;
+  text-align: center;
+  font-size: 24px;
   font-weight: 500;
   color: var(--red);
 }
 
 .hero__subtitle {
-  margin: 12px 0 0;
+  margin-top: auto;
 
   text-align: center;
   color: var(--red);
@@ -205,14 +234,14 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 30px;
-  margin-top: 18px;
+  margin-top: 16px;
   padding: 0 22px;
   border: 0;
   border-radius: 999px;
   background: var(--red-dark);
   color: var(--cream);
   font: inherit;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -223,6 +252,11 @@ body {
 .btn:hover {
   opacity: 0.92;
   transform: translateY(-1px);
+}
+
+.btn span {
+  position: relative;
+  top: -1px;
 }
 
 .rsvp {
@@ -242,13 +276,14 @@ body {
 }
 
 .rsvp .btn {
-  margin-top: 14px;
+  margin-top: 0px;
+  margin-bottom: 20px
 }
 
 .footer {
   position: relative;
   overflow: visible;
-  padding: 48px 20px 36px;
+  padding: 24px 20px 36px;
   background: var(--red-dark);
   color: var(--cream);
   text-align: center;
@@ -284,13 +319,13 @@ body {
 
 .footer__title {
   margin: 0 0 10px;
-  font-size: 28px;
+  font-size: 36px;
   color: var(--cream);
 }
 
 .footer__note {
   margin: 0;
-  font-size: 10px;
+  font-size: 15px;
   opacity: 0.95;
 }
 
