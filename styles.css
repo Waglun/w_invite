@@ -84,22 +84,14 @@ body {
 
 
 .hero__overlay h1 {
-  margin: 20px 0 0;
+  margin: 0 0 0 0;
 
   font-size: 50px;       /* увеличить размер */
   line-height: 0.9;
   text-align: center;    /* центрирование строк */
-  color: var(--red);
+  color: #910000;
 }
 
-/*.hero__overlay {            !* новый класс *!*/
-/*  position: absolute;*/
-/*  inset: 0;*/
-/*  padding: 30px 20px;*/
-/*  background: rgba(255,255,255,0.08); !*подложка*!*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*}*/
 
 .hero__overlay {
   position: absolute;
@@ -107,15 +99,16 @@ body {
 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
   padding: 30px 20px;
 
-  background: rgba(255, 255, 255, 0.20);
+  background: rgba(255, 255, 255, 0.18);
 }
 
 .hero__date {
   font-family: "Instrument Serif", serif;
-  margin: 8px 0 0;
+  margin: 0;
   text-align: center;
   font-size: 24px;
   font-weight: 500;
@@ -123,13 +116,20 @@ body {
 }
 
 .hero__subtitle {
-  align-self: flex-end;
-  margin-top: auto;
-  margin-bottom: 0;
+  align-self: center; /* вместо flex-end */
+  margin: 0 0 10px 0;
   text-align: center;
-  color: var(--red);
-  margin-right: 35px;
+  color: #FFFEF6;
   font-size: 24px;
+  /* Добавляем */
+  width: 100%; /* чтобы занять всю ширину */
+}
+
+.hero__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .welcome {
@@ -193,10 +193,8 @@ body {
 .dresscode__bg {
   position: absolute;
   inset: -40px -52px;
-  /*background: url("assets/image1_7180_2.png") center / cover no-repeat;*/
   background: var(--red-dark);
   color: var(--cream);
-  /*filter: brightness(0.72);*/
 }
 
 .dresscode .card {
